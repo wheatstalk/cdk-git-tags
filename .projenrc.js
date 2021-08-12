@@ -19,6 +19,13 @@ const project = new pj.AwsCdkConstructLibrary({
   releaseToNpm: true,
   npmAccess: pj.NpmAccess.PUBLIC,
 
+  projenUpgradeSecret: 'YARN_UPGRADE_TOKEN',
+  autoApproveUpgrades: true,
+  autoApproveOptions: {
+    secret: 'GITHUB_TOKEN',
+    allowedUsernames: ['github-actions', 'github-actions[bot]', 'misterjoshua'],
+  },
+
   cdkDependencies: [
     '@aws-cdk/core',
     '@aws-cdk/aws-sqs',

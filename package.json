@@ -1,8 +1,9 @@
 {
-  "name": "cdk-git-tags",
+  "name": "@wheatstalk/cdk-git-tags",
+  "description": "Add tags to your resources from info in your git repository",
   "repository": {
     "type": "git",
-    "url": "https://github.com/joshkellendonk/cdk-git-tags.git"
+    "url": "https://github.com/wheatstalk/cdk-git-tags.git"
   },
   "scripts": {
     "clobber": "npx projen clobber",
@@ -14,7 +15,8 @@
     "test:update": "npx projen test:update",
     "bump": "npx projen bump",
     "unbump": "npx projen unbump",
-    "upgrade-dependencies": "npx projen upgrade-dependencies",
+    "publish:github": "npx projen publish:github",
+    "upgrade": "npx projen upgrade",
     "upgrade-projen": "npx projen upgrade-projen",
     "default": "npx projen default",
     "watch": "npx projen watch",
@@ -23,9 +25,10 @@
     "compat": "npx projen compat",
     "publish:npm": "npx projen publish:npm",
     "docgen": "npx projen docgen",
+    "readme-macros": "npx projen readme-macros",
     "release": "npx projen release",
     "projen": "npx projen",
-    "start": "npx projen start"
+    "it:dev": "cdk --app \"ts-node -P tsconfig.eslint.json test/it/it-lit.ts\""
   },
   "author": {
     "name": "Josh Kellendonk",
@@ -38,6 +41,8 @@
     "@types/node": "^10.17.0",
     "@typescript-eslint/eslint-plugin": "^4.29.1",
     "@typescript-eslint/parser": "^4.29.1",
+    "@wheatstalk/lit-snip": "^0.0",
+    "aws-cdk": "^1",
     "eslint": "^7.32.0",
     "eslint-import-resolver-node": "^0.3.5",
     "eslint-import-resolver-typescript": "^2.4.0",
@@ -49,21 +54,36 @@
     "jsii-docgen": "^3.2.24",
     "jsii-pacmak": "^1.32.0",
     "json-schema": "^0.3.0",
+    "markmac": "^0.1",
     "npm-check-updates": "^11",
     "projen": "^0.27.28",
+    "shx": "^0.3.3",
     "standard-version": "^9",
     "ts-jest": "^27.0.4",
+    "ts-node": "^9",
     "typescript": "^4.3.5"
   },
   "peerDependencies": {
+    "@aws-cdk/aws-sqs": "^1.95.2",
+    "@aws-cdk/core": "^1.95.2",
     "constructs": "^3.2.27"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-sqs": "^1.95.2",
+    "@aws-cdk/core": "^1.95.2"
   },
   "bundledDependencies": [],
   "keywords": [
-    "cdk"
+    "budget",
+    "cdk",
+    "cloudformation",
+    "tag"
   ],
   "main": "lib/index.js",
   "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.0.0",
   "jest": {
     "testMatch": [

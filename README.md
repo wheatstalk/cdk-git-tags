@@ -1,6 +1,6 @@
 # CDK Git Tags
 
-Tag your stack and resources according to information in your git repository.
+Tag your stack and resources with information in your git repository.
 The tags will be taken from the git repository when you synthesize your app.
 
 ![An example of the applied tags](images/tags.png)

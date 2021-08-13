@@ -1849,9 +1849,9 @@ console-control-strings@^1.0.0, console-control-strings@~1.1.0:
   integrity sha1-PXz0Rk22RG6mRL9LOVB/mFEAjo4=
 
 constructs@^3.3.69:
-  version "3.3.120"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-3.3.120.tgz#bc0bb45e5b06dededada45191236a4434d9d3766"
-  integrity sha512-BNMjRXLZ98jrxhKJFOUN7NSgZS1BhFeIplPwXQrQ3nyTyF3ndtAk9YQLldrHKtnRbLXGE8IM+/85kwlnmfxJzA==
+  version "3.3.121"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-3.3.121.tgz#cf22f96f675b54b83ef32c9bfd51f1ea3fa5242a"
+  integrity sha512-vYTkqiaoGWecZ5yyBkeuPkJd6HsQbABuewGMMUTHI7FcvQk9A52j5KZMfIQ0O5TS2ssPUt4WytuIOdTEW+vIRQ==
 
 conventional-changelog-angular@^5.0.12:
   version "5.0.12"
@@ -3150,9 +3150,9 @@ globals@^11.1.0:
   integrity sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==
 
 globals@^13.6.0, globals@^13.9.0:
-  version "13.10.0"
-  resolved "https://registry.yarnpkg.com/globals/-/globals-13.10.0.tgz#60ba56c3ac2ca845cfbf4faeca727ad9dd204676"
-  integrity sha512-piHC3blgLGFjvOuMmWZX60f+na1lXFDhQXBf1UYp2fXPXqvEUbOhNwi6BsQ0bQishwedgnjkwv1d9zKf+MWw3g==
+  version "13.11.0"
+  resolved "https://registry.yarnpkg.com/globals/-/globals-13.11.0.tgz#40ef678da117fe7bd2e28f1fab24951bd0255be7"
+  integrity sha512-08/xrJ7wQjK9kkkRoI3OFUBbLx4f+6x3SGwcPvQ0QH6goFDrOU2oyAWrmh3dJezu65buo+HBMzAMQy6rovVC3g==
   dependencies:
     type-fest "^0.20.2"
 
@@ -4274,10 +4274,10 @@ jsii-diff@^1.32.0:
     typescript "~3.9.9"
     yargs "^16.2.0"
 
-jsii-docgen@^3.2.24:
-  version "3.2.24"
-  resolved "https://registry.yarnpkg.com/jsii-docgen/-/jsii-docgen-3.2.24.tgz#63dedfc1dc0161b3487347352aeb722b768d8d2c"
-  integrity sha512-guiqpTsQ736VPR7RaS4ATXqqRdtFGrUazOa5NTbbsnR4GV9WZGCyAhp5LVsvw/ziZeiqJdjQuKgXG95L/3RqTg==
+jsii-docgen@^3.2.25:
+  version "3.2.25"
+  resolved "https://registry.yarnpkg.com/jsii-docgen/-/jsii-docgen-3.2.25.tgz#557dfaf06e7338ae3d72f57ffa84db1fa4c096b2"
+  integrity sha512-3XVwTGsb5feYi25GNt7jW6A3DQvPOsnfV/u+Pdb4TVGvM5PBA9HLvB0qhilSQHYSdB0ZDWPiskrW50dv60hLXQ==
   dependencies:
     "@jsii/spec" "^1.32.0"
     case "^1.6.3"

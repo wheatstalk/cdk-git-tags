@@ -987,9 +987,9 @@
     eslint-visitor-keys "^2.0.0"
 
 "@wheatstalk/lit-snip@^0.0":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@wheatstalk/lit-snip/-/lit-snip-0.0.11.tgz#03ceafe21707867399fd7deb2090118cf418347b"
-  integrity sha512-EzzuVlUj9Qb+KhbY+ca1SwMdDN2PnksgFlfZEGEWWgTIkyllVwMVsAzhntPOslATj45ptIjn5UH4y12L52WXFQ==
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/@wheatstalk/lit-snip/-/lit-snip-0.0.12.tgz#ee60be21dc632dfe1cc4b49873478e596a0cdc80"
+  integrity sha512-PdFRy4qoXqUf0aJ4VFYnCaRMuvgQEgoNvl1vg1kjZKB50RYe7nA+XiL9vannL4AmkV08xwJ8bJYDrdTggfaSEA==
 
 JSONStream@^1.0.4:
   version "1.3.5"
@@ -1856,9 +1856,9 @@ console-control-strings@^1.0.0, console-control-strings@~1.1.0:
   integrity sha1-PXz0Rk22RG6mRL9LOVB/mFEAjo4=
 
 constructs@^3.3.69:
-  version "3.3.129"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-3.3.129.tgz#18394f480fc2362f01ec1c800f640d415e4175ad"
-  integrity sha512-XSQ/TTinb25oA8KxlPXbAIo3SnkIRdgl6lX8qTze2cKrxdTtmjgaapO7fdv7bVj+Sd0v5ld9dE2K8P+j3b8z/g==
+  version "3.3.130"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-3.3.130.tgz#08b18e41ea3342e7bc39567b4ee73cac2b3a6706"
+  integrity sha512-GitHQl8pPzhdfqUZAJ71EW1v97NgendPdsgl403a8nttVQF86p1xJSwiWHNimMP5KUqDMa5Hr9e4wmrCkB92+A==
 
 conventional-changelog-angular@^5.0.12:
   version "5.0.12"

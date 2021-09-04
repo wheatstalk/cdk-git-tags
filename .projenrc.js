@@ -25,8 +25,8 @@ const project = new pj.AwsCdkConstructLibrary({
     secret: 'GITHUB_TOKEN',
     allowedUsernames: ['github-actions', 'github-actions[bot]', 'misterjoshua'],
   },
-  
-  minNodeVersion: '12.0.0',
+
+  minNodeVersion: '12.13.0',
 
   cdkDependencies: [
     '@aws-cdk/core',

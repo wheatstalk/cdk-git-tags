@@ -8,7 +8,7 @@
 
 Adds tags to your constructs based on git info.
 
-#### Initializer <a name="@wheatstalk/cdk-git-tags.GitTags.Initializer"></a>
+#### Initializers <a name="@wheatstalk/cdk-git-tags.GitTags.Initializer"></a>
 
 ```typescript
 import { GitTags } from '@wheatstalk/cdk-git-tags'
